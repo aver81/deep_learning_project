@@ -34,7 +34,9 @@ The Transformer architecture will include:
 
 The input to the model will consist of historical electricity load values along with time-based covariates such as hour of day, day of week, and month. The model will be developed for multi-step forecasting, using a fixed historical input sequence to generate probabilistic forecasts for the next 24 hours. The output will be a set of quantile forecasts, such as the 10th, 50th, and 90th percentiles, for each step in the prediction horizon. This formulation will allow the model to estimate both the central tendency of future electricity demand and the associated uncertainty intervals. Training will be performed using quantile loss (pinball loss), which is a standard and widely used approach for probabilistic forecasting.
 
-As an optional extension, if time permits, the project will implement one additional Transformer-based forecasting architecture with a different but still manageable design, such as Informer or another lightweight long-sequence forecasting model. This extension will be included only if the core forecasting pipeline is completed successfully. ________________________________________
+As an optional extension, if time permits, the project will implement one additional Transformer-based forecasting architecture with a different but still manageable design, such as Informer or another lightweight long-sequence forecasting model. This extension will be included only if the core forecasting pipeline is completed successfully. 
+
+________________________________________
 
 
 ### 5.	Validation and Evaluation Metrics
