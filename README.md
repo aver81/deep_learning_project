@@ -76,6 +76,8 @@ The expected outcome of this project is a Transformer-based probabilistic foreca
 
 If the optional extension is completed, the project will also provide a comparison between two Transformer-based forecasting architectures and discuss the trade-offs between model complexity, forecasting accuracy, and probabilistic performance.
 
+________________________________________
+
 ### 7.	Team Responsibilities
 - Team Member 1 – Data Engineering and Preprocessing
 Responsible for downloading and cleaning the dataset, resampling the data to hourly intervals, handling missing values, normalizing electricity demand, engineering time-based features, generating input-output forecasting sequences, and preparing training, validation, and test datasets.
