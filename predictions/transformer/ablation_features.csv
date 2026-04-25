@@ -1,0 +1,5 @@
+Feature Set,Num Features,Best Val Loss
+Load only,1,0.02608246812596917
+Load + Hour,3,0.02414033457171172
+Load + Hour + Day,5,0.025318868318572642
+All features,7,0.024281886196695267
